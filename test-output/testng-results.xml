@@ -2,118 +2,103 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-07T17:08:09 IST" name="Default suite" finished-at="2022-06-07T17:08:10 IST" duration-ms="991">
+  <suite started-at="2022-06-09T12:48:39 IST" name="Default suite" finished-at="2022-06-09T12:48:43 IST" duration-ms="3485">
     <groups>
     </groups>
-    <test started-at="2022-06-07T17:08:09 IST" name="Default test" finished-at="2022-06-07T17:08:10 IST" duration-ms="991">
-      <class name="CrossBrowser">
-        <test-method signature="sampleTest()[pri:0, instance:CrossBrowser@101952da]" started-at="2022-06-07T17:08:09 IST" name="sampleTest" finished-at="2022-06-07T17:08:10 IST" duration-ms="918" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+    <test started-at="2022-06-09T12:48:39 IST" name="Default test" finished-at="2022-06-09T12:48:43 IST" duration-ms="3485">
+      <class name="GridClassTest">
+        <test-method signature="sampleTest()[pri:0, instance:GridClassTest@101952da]" started-at="2022-06-09T12:48:39 IST" name="sampleTest" finished-at="2022-06-09T12:48:43 IST" duration-ms="3392" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[Unable to parse remote response: <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
-  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
-  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    var json = Object.freeze('{"consoleLink": "\u002fwd\u002fhub","type": "Standalone","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
-  </script>
-</head>
-<body>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 102.0.5005.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '10.10.22.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_291'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Ordinal0 [0x014BFDC3+2555331]
+Ordinal0 [0x014577F1+2127857]
+Ordinal0 [0x01352E08+1060360]
+Ordinal0 [0x013719CA+1186250]
+Ordinal0 [0x0136D825+1169445]
+Ordinal0 [0x0136AFC1+1159105]
+Ordinal0 [0x0139C22F+1360431]
+Ordinal0 [0x0139BE9A+1359514]
+Ordinal0 [0x01397976+1341814]
+Ordinal0 [0x013736B6+1193654]
+Ordinal0 [0x01374546+1197382]
+GetHandleVerifier [0x01659622+1619522]
+GetHandleVerifier [0x0170882C+2336844]
+GetHandleVerifier [0x015523E1+541697]
+GetHandleVerifier [0x01551443+537699]
+Ordinal0 [0x0145D18E+2150798]
+Ordinal0 [0x01461518+2168088]
+Ordinal0 [0x01461660+2168416]
+Ordinal0 [0x0146B330+2208560]
+BaseThreadInitThunk [0x75206A14+36]
+RtlInitializeExceptionChain [0x779CA9FF+143]
+RtlInitializeExceptionChain [0x779CA9CA+90]
 
-<div id="content">
-  <div id="help-heading">
-    <h1><span id="logo"></span></h1>
-    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
-  </div>
-
-  <div id="content-body">
-    <p>
-      Whoops! The URL specified routes to this help page.
-    </p>
-    <p>
-      For more information about Selenium <span class="se-type"></span> please see the
-      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
-      <span id="console-item">
-        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
-      </span>
-    </p>
-    <p>
-      Happy Testing!
-    </p>
-  </div>
-
-  <div>
-    <footer id="help-footer">
-      Selenium is made possible through the efforts of our open source community, contributions from
-      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
-      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
-   </footer>
-  </div>
- </div>
-
-</body>
-</html>]]>
+Command duration or timeout: 2.57 seconds]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Unable to parse remote response: <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
-  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
-  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
-  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    var json = Object.freeze('{"consoleLink": "\u002fwd\u002fhub","type": "Standalone","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
-  </script>
-</head>
-<body>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 102.0.5005.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '10.10.22.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_291'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Ordinal0 [0x014BFDC3+2555331]
+Ordinal0 [0x014577F1+2127857]
+Ordinal0 [0x01352E08+1060360]
+Ordinal0 [0x013719CA+1186250]
+Ordinal0 [0x0136D825+1169445]
+Ordinal0 [0x0136AFC1+1159105]
+Ordinal0 [0x0139C22F+1360431]
+Ordinal0 [0x0139BE9A+1359514]
+Ordinal0 [0x01397976+1341814]
+Ordinal0 [0x013736B6+1193654]
+Ordinal0 [0x01374546+1197382]
+GetHandleVerifier [0x01659622+1619522]
+GetHandleVerifier [0x0170882C+2336844]
+GetHandleVerifier [0x015523E1+541697]
+GetHandleVerifier [0x01551443+537699]
+Ordinal0 [0x0145D18E+2150798]
+Ordinal0 [0x01461518+2168088]
+Ordinal0 [0x01461660+2168416]
+Ordinal0 [0x0146B330+2208560]
+BaseThreadInitThunk [0x75206A14+36]
+RtlInitializeExceptionChain [0x779CA9FF+143]
+RtlInitializeExceptionChain [0x779CA9CA+90]
 
-<div id="content">
-  <div id="help-heading">
-    <h1><span id="logo"></span></h1>
-    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
-  </div>
-
-  <div id="content-body">
-    <p>
-      Whoops! The URL specified routes to this help page.
-    </p>
-    <p>
-      For more information about Selenium <span class="se-type"></span> please see the
-      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
-      <span id="console-item">
-        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
-      </span>
-    </p>
-    <p>
-      Happy Testing!
-    </p>
-  </div>
-
-  <div>
-    <footer id="help-footer">
-      Selenium is made possible through the efforts of our open source community, contributions from
-      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
-      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
-   </footer>
-  </div>
- </div>
-
-</body>
-</html>
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+Command duration or timeout: 2.57 seconds
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
 at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at CrossBrowser.sampleTest(CrossBrowser.java:19)
+at GridClassTest.sampleTest(GridClassTest.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -142,25 +127,114 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: <. Last 1 characters read: <
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 97
+Current browser version is 102.0.5005.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '10.10.22.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_291'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+Ordinal0 [0x014BFDC3+2555331]
+Ordinal0 [0x014577F1+2127857]
+Ordinal0 [0x01352E08+1060360]
+Ordinal0 [0x013719CA+1186250]
+Ordinal0 [0x0136D825+1169445]
+Ordinal0 [0x0136AFC1+1159105]
+Ordinal0 [0x0139C22F+1360431]
+Ordinal0 [0x0139BE9A+1359514]
+Ordinal0 [0x01397976+1341814]
+Ordinal0 [0x013736B6+1193654]
+Ordinal0 [0x01374546+1197382]
+GetHandleVerifier [0x01659622+1619522]
+GetHandleVerifier [0x0170882C+2336844]
+GetHandleVerifier [0x015523E1+541697]
+GetHandleVerifier [0x01551443+537699]
+Ordinal0 [0x0145D18E+2150798]
+Ordinal0 [0x01461518+2168088]
+Ordinal0 [0x01461660+2168416]
+Ordinal0 [0x0146B330+2208560]
+BaseThreadInitThunk [0x75206A14+36]
+RtlInitializeExceptionChain [0x779CA9FF+143]
+RtlInitializeExceptionChain [0x779CA9CA+90]
+
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LENOVO-PC', ip: '192.168.173.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '16.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:122)
-at org.openqa.selenium.json.JsonTypeCoercer.lambda$null$6(JsonTypeCoercer.java:140)
-at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:126)
-at org.openqa.selenium.json.Json.toType(Json.java:69)
-at org.openqa.selenium.json.Json.toType(Json.java:55)
-at org.openqa.selenium.json.Json.toType(Json.java:50)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
-... 35 more
+System info: host: 'LENOVO-PC', ip: '10.10.22.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '16.0.1'
+Driver info: driver.version: unknown
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.grid.session.remote.RemoteSession$Factory.performHandshake(RemoteSession.java:147)
+at org.openqa.selenium.grid.session.remote.ServicedSession$Factory.apply(ServicedSession.java:161)
+at org.openqa.selenium.remote.server.ActiveSessionFactory.lambda$apply$12(ActiveSessionFactory.java:180)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$11$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.ActiveSessionFactory.apply(ActiveSessionFactory.java:183)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$null$2(NewSessionPipeline.java:66)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.Collections$2.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.lambda$createNewSession$3(NewSessionPipeline.java:69)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.DistinctOps$1$2.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+at java.util.stream.Streams$StreamBuilderImpl.tryAdvance(Unknown Source)
+at java.util.stream.Streams$ConcatSpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.server.NewSessionPipeline.createNewSession(NewSessionPipeline.java:72)
+at org.openqa.selenium.remote.server.commandhandler.BeginSession.execute(BeginSession.java:65)
+at org.openqa.selenium.remote.server.WebDriverServlet.lambda$handle$0(WebDriverServlet.java:235)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleTest -->
-      </class> <!-- CrossBrowser -->
+      </class> <!-- GridClassTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
